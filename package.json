@@ -1,0 +1,17 @@
+{
+  "name": "twitch-whos-live",
+  "author": "Benjamin Lannon <benjamin@lannonbr.com>",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.573.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0",
+    "node-fetch": "^2.6.0"
+  },
+  "scripts": {
+    "clean": "rm func.zip",
+    "deploy": "zip -r func.zip node_modules index.js package.json && aws lambda update-function-code --function-name SaveOnlineLiveCoders --zip-file fileb://func.zip"
+  }
+}
