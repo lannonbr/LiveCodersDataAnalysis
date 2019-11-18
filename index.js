@@ -10,35 +10,18 @@ require("dotenv").config();
 const twitchClientID = process.env.CLIENT_ID;
 const team = process.env.TEAM_NAME;
 
+const timestamp = moment()
+  .unix()
+  .toString();
+
 exports.handler = async function() {
   return new Promise(async (resolve, reject) => {
-    let teamURL = `https://api.twitch.tv/kraken/teams/${team}`;
+    let members = await getTeamMembers();
 
-    let resp = await fetch(teamURL, {
-      headers: {
-        Accept: "application/vnd.twitchtv.v5+json",
-        "Client-ID": twitchClientID
-      }
-    });
-
-    let data = await resp.json();
-    let users = data.users;
-
-    let uids = users.map(user => user._id);
-
+    let uids = members.map(member => member._id);
     let idStr = uids.join("&user_id=");
 
-    let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`;
-
-    resp = await fetch(activeStreamsURL, {
-      headers: {
-        "Client-ID": twitchClientID
-      }
-    });
-
-    let onlineStateData = await resp.json();
-
-    let onlineUsers = onlineStateData.data.map(user => user.user_name);
+    let onlineUsers = await getOnlineStreamers(idStr);
 
     // Terminate early if no one is online
     if (onlineUsers.length === 0) {
@@ -50,10 +33,6 @@ exports.handler = async function() {
         LiveCodersStreamPoints: []
       }
     };
-
-    const timestamp = moment()
-      .unix()
-      .toString();
 
     onlineUsers.forEach(user => {
       params.RequestItems.LiveCodersStreamPoints.push({
@@ -76,3 +55,29 @@ exports.handler = async function() {
     });
   });
 };
+
+async function getOnlineStreamers(idStr) {
+  let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`;
+  resp = await fetch(activeStreamsURL, {
+    headers: {
+      "Client-ID": twitchClientID
+    }
+  });
+  let data = await resp.json();
+  let onlineStreamers = data.data.map(user => user.user_name);
+  return onlineStreamers;
+}
+
+async function getTeamMembers() {
+  let teamURL = `https://api.twitch.tv/kraken/teams/${team}`;
+  let resp = await fetch(teamURL, {
+    headers: {
+      Accept: "application/vnd.twitchtv.v5+json",
+      "Client-ID": twitchClientID
+    }
+  });
+  let data = await resp.json();
+  let users = data.users;
+
+  return users;
+}
