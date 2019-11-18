@@ -40,6 +40,11 @@ exports.handler = async function() {
 
     let onlineUsers = onlineStateData.data.map(user => user.user_name);
 
+    // Terminate early if no one is online
+    if (onlineUsers.length === 0) {
+      resolve(200);
+    }
+
     const params = {
       RequestItems: {
         LiveCodersStreamPoints: []
