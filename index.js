@@ -61,17 +61,25 @@ exports.handler = async function() {
         });
       });
 
-      ddb.batchWriteItem(params, (err, data) => {
-        if (err) {
-          console.error(err);
-          reject(err);
-        } else {
-          resolve(200);
-        }
-      });
+      ddb.batchWriteItem(params, processCallback);
     } catch (err) {
       console.error(err);
       reject(err);
+    }
+
+    function processCallback(err, data) {
+      if (err) {
+        console.error(err);
+        reject(err);
+      } else {
+        if (data.UnprocessedItems.LiveCodersStreamPoints && data.UnprocessedItems.LiveCodersStreamPoints.length > 0) {
+          let params = {}
+          params.RequestItems = data.UnprocessedItems
+          ddb.batchWriteItem(params, processCallback);
+        } else {
+          resolve(200)
+        }
+      }
     }
   });
 };
