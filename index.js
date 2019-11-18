@@ -16,68 +16,62 @@ const timestamp = moment()
 
 exports.handler = async function() {
   return new Promise(async (resolve, reject) => {
-    let members = await getTeamMembers();
-
-    let uids = members.map(member => member._id);
-    let idStr = uids.join("&user_id=");
-
-    let onlineUsers = await getOnlineStreamers(idStr);
-
-    // Terminate early if no one is online
-    if (onlineUsers.length === 0) {
-      resolve(200);
-    }
-
-    const params = {
-      RequestItems: {
-        LiveCodersStreamPoints: []
-      }
-    };
-
-    onlineUsers.forEach(user => {
-      params.RequestItems.LiveCodersStreamPoints.push({
-        PutRequest: {
-          Item: {
-            username: { S: user },
-            timestamp: { N: timestamp }
-          }
+    try {
+      let teamURL = `https://api.twitch.tv/kraken/teams/${team}`;
+      let resp = await fetch(teamURL, {
+        headers: {
+          Accept: "application/vnd.twitchtv.v5+json",
+          "Client-ID": twitchClientID
         }
       });
-    });
+      let data = await resp.json();
+      let members = data.users;
 
-    ddb.batchWriteItem(params, (err, data) => {
-      if (err) {
-        console.error(err);
-        reject(err);
-      } else {
+      let uids = members.map(member => member._id);
+      let idStr = uids.join("&user_id=");
+
+      let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`;
+      resp = await fetch(activeStreamsURL, {
+        headers: {
+          "Client-ID": twitchClientID
+        }
+      });
+      data = await resp.json();
+      let onlineUsers = data.data.map(user => user.user_name);
+
+      // Terminate early if no one is online
+      if (onlineUsers.length === 0) {
         resolve(200);
       }
-    });
+
+      const params = {
+        RequestItems: {
+          LiveCodersStreamPoints: []
+        }
+      };
+
+      onlineUsers.forEach(user => {
+        params.RequestItems.LiveCodersStreamPoints.push({
+          PutRequest: {
+            Item: {
+              username: { S: user },
+              timestamp: { N: timestamp }
+            }
+          }
+        });
+      });
+
+      ddb.batchWriteItem(params, (err, data) => {
+        if (err) {
+          console.error(err);
+          reject(err);
+        } else {
+          resolve(200);
+        }
+      });
+    } catch (err) {
+      console.error(err);
+      reject(err);
+    }
   });
 };
-
-async function getOnlineStreamers(idStr) {
-  let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`;
-  resp = await fetch(activeStreamsURL, {
-    headers: {
-      "Client-ID": twitchClientID
-    }
-  });
-  let data = await resp.json();
-  let onlineStreamers = data.data.map(user => user.user_name);
-  return onlineStreamers;
-}
-
-async function getTeamMembers() {
-  let teamURL = `https://api.twitch.tv/kraken/teams/${team}`;
-  let resp = await fetch(teamURL, {
-    headers: {
-      Accept: "application/vnd.twitchtv.v5+json",
-      "Client-ID": twitchClientID
-    }
-  });
-  let data = await resp.json();
-  let users = data.users;
-
-  return users;
-}
