@@ -35,6 +35,8 @@ async function run() {
 
   let allStreams = {}
 
+  let totalTime = 0
+
   for (let member of members) {
     let queryResp = await ddb
       .query({
@@ -56,10 +58,15 @@ async function run() {
 
     if (memberStreams.length > 0) {
       allStreams[member] = memberStreams
+
+      memberStreams.forEach(s => {
+        totalTime += s.length
+      })
     }
   }
 
   console.log(allStreams)
+  console.log("Total time: ", totalTime, " seconds")
 }
 
 run()
@@ -105,16 +112,14 @@ function getStreams(queryResp) {
   }
 
   streams = streams.map(stream => {
+    let s = moment.unix(stream[0].timestamp).subtract(5, "minutes")
+    let e = moment.unix(stream[1].timestamp).add(5, "minutes")
+
     return {
       streamer: stream[0].username,
-      startTime: moment
-        .unix(stream[0].timestamp)
-        .subtract(5, "minutes")
-        .format("llll"),
-      endTime: moment
-        .unix(stream[1].timestamp)
-        .add(5, "minutes")
-        .format("llll"),
+      startTime: s.format("llll"),
+      endTime: e.format("llll"),
+      length: e.unix() - s.unix(),
     }
   })
 
