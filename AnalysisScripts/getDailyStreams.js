@@ -66,7 +66,7 @@ async function run() {
   }
 
   console.log(allStreams)
-  console.log("Total time: ", totalTime, " seconds")
+  console.log(`Total time: ${totalTime}`)
 }
 
 run()
