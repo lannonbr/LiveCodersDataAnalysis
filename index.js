@@ -40,22 +40,27 @@ exports.handler = async function() {
         },
       })
       data = await resp.json()
-      let onlineUsers = data.data.map(user => user.user_name)
 
-      console.log({ onlineUsers })
+      let onlineUsersEntries = data.data.map(user => ({
+        user: user.user_name,
+        game_id: user.game_id,
+      }))
+
+      console.log({ onlineUsersEntries })
 
       // Terminate early if no one is online
-      if (onlineUsers.length === 0) {
+      if (onlineUsersEntries.length === 0) {
         rootResolve(200)
       }
 
       const params = {
         RequestItems: {
-          LiveCodersStreamPoints: onlineUsers.map(user => ({
+          LiveCodersStreamPoints: onlineUsersEntries.map(user => ({
             PutRequest: {
               Item: {
-                username: { S: user },
+                username: { S: user.user },
                 timestamp: { N: timestamp },
+                game_id: { S: user.game_id },
               },
             },
           })),
