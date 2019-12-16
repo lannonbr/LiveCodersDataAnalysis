@@ -31,20 +31,27 @@ exports.handler = async function() {
       let members = data.users
 
       let uids = members.map(member => member._id)
-      let idStr = uids.join("&user_id=")
 
-      let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`
-      resp = await fetch(activeStreamsURL, {
-        headers: {
-          "Client-ID": twitchClientID,
-        },
-      })
-      data = await resp.json()
+      let onlineUsersEntries = []
 
-      let onlineUsersEntries = data.data.map(user => ({
-        user: user.user_name,
-        game_id: user.game_id,
-      }))
+      for (let i = 0; i < Math.ceil(uids.length / 50); i++) {
+        let idStr = uids.slice(i * 50, i * 50 + 50).join("&user_id=")
+
+        let activeStreamsURL = `https://api.twitch.tv/helix/streams?user_id=${idStr}`
+        resp = await fetch(activeStreamsURL, {
+          headers: {
+            "Client-ID": twitchClientID,
+          },
+        })
+        data = await resp.json()
+
+        let liveEntries = data.data.map(user => ({
+          user: user.user_name,
+          game_id: user.game_id,
+        }))
+
+        onlineUsersEntries.push(...liveEntries)
+      }
 
       console.log({ onlineUsersEntries })
 
@@ -84,3 +91,5 @@ exports.handler = async function() {
     }
   })
 }
+
+exports.handler()
