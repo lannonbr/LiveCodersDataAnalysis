@@ -26,7 +26,7 @@ async function run() {
   members = members.map(member => member.display_name)
 
   let startTime = moment()
-    .subtract(1, "day")
+    .subtract(1, "week")
     .unix()
     .toString()
   let endTime = moment()
@@ -65,7 +65,7 @@ async function run() {
     }
   }
 
-  console.log(allStreams)
+  console.log(JSON.stringify(allStreams))
   console.log(`Total time: ${totalTime}`)
 }
 
@@ -117,8 +117,8 @@ function getStreams(queryResp) {
 
     return {
       streamer: stream[0].username,
-      startTime: s.format("llll"),
-      endTime: e.format("llll"),
+      startTime: s.format("ddd, MMM D, YYYY h:mm A ZZ"),
+      endTime: e.format("ddd, MMM D, YYYY h:mm A ZZ"),
       length: e.unix() - s.unix(),
     }
   })

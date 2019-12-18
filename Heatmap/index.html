@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+
+<h1>Heatmap for all LiveCoders</h1>
+
+<h2>Timeframe: Dec 8, 2019 - Dec 14, 2019</h2>
+
+<p>
+  There is a lack of entries after tuesday around 5am due to issues with lambda
+  function.
+</p>
+
+<p>All times are EST (UTC-5)</p>
+
+<!-- Create a div where the graph will take place -->
+
+<div id="my_dataviz"></div>
+
+<p>
+  Max Streams at once: 9 streams, 9AM Monday
+</p>
+<script>
+  // set the dimensions and margins of the graph
+  var margin = { top: 30, right: 30, bottom: 30, left: 30 },
+    width = 1280 - margin.left - margin.right,
+    height = 450 - margin.top - margin.bottom
+
+  // append the svg object to the body of the page
+  var svg = d3
+    .select("#my_dataviz")
+    .append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+    .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+
+  // Labels of row and columns
+  var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"].reverse()
+  var hours = [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+  ]
+
+  // Build X scales and axis:
+  var x = d3
+    .scaleBand()
+    .range([0, width])
+    .domain(hours)
+    .padding(0.01)
+  svg
+    .append("g")
+    .attr("transform", "translate(0," + height + ")")
+    .call(d3.axisBottom(x))
+
+  // Build X scales and axis:
+  var y = d3
+    .scaleBand()
+    .range([height, 0])
+    .domain(days)
+    .padding(0.01)
+  svg.append("g").call(d3.axisLeft(y))
+
+  // Build color scale
+  var myColor = d3
+    .scaleLinear()
+    .range(["white", "#69b3a2"])
+    .domain([1, 10])
+
+  //Read the data
+  d3.csv(
+    "https://gist.githubusercontent.com/lannonbr/28476ce29ad22de2a6172702a9720ed2/raw/2b2d52c6b6f60596f86a16a0182180da72092044/dec8-data.csv",
+    function(data) {
+      svg
+        .selectAll()
+        .data(data, function(d) {
+          return d.hour + ":" + d.day
+        })
+        .enter()
+        .append("rect")
+        .attr("x", function(d) {
+          return x(d.hour)
+        })
+        .attr("y", function(d) {
+          return y(d.day)
+        })
+        .attr("width", x.bandwidth())
+        .attr("height", y.bandwidth())
+        .style("fill", function(d) {
+          return myColor(d.value)
+        })
+    }
+  )
+</script>
