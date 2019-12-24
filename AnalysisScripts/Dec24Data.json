@@ -1,0 +1,1248 @@
+{
+  "codeaurora": [
+    {
+      "streamer": "codeaurora",
+      "startTime": "Thu, Dec 19, 2019 8:55 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 9:30 PM -0500",
+      "length": 2100
+    },
+    {
+      "streamer": "codeaurora",
+      "startTime": "Fri, Dec 20, 2019 9:05 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 10:30 PM -0500",
+      "length": 5100
+    },
+    {
+      "streamer": "codeaurora",
+      "startTime": "Mon, Dec 23, 2019 8:00 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 9:00 PM -0500",
+      "length": 3600
+    }
+  ],
+  "EdCharbeneau": [
+    {
+      "streamer": "EdCharbeneau",
+      "startTime": "Fri, Dec 20, 2019 11:00 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 2:30 PM -0500",
+      "length": 12600
+    },
+    {
+      "streamer": "EdCharbeneau",
+      "startTime": "Fri, Dec 20, 2019 3:15 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 4:50 PM -0500",
+      "length": 5700
+    }
+  ],
+  "roberttables": [
+    {
+      "streamer": "roberttables",
+      "startTime": "Tue, Dec 17, 2019 3:55 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 6:35 PM -0500",
+      "length": 9600
+    },
+    {
+      "streamer": "roberttables",
+      "startTime": "Thu, Dec 19, 2019 3:55 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 6:20 PM -0500",
+      "length": 8700
+    },
+    {
+      "streamer": "roberttables",
+      "startTime": "Sat, Dec 21, 2019 12:00 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 2:30 PM -0500",
+      "length": 9000
+    },
+    {
+      "streamer": "roberttables",
+      "startTime": "Mon, Dec 23, 2019 5:05 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 8:10 PM -0500",
+      "length": 11100
+    }
+  ],
+  "Rosuav": [
+    {
+      "streamer": "Rosuav",
+      "startTime": "Thu, Dec 19, 2019 3:55 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 6:35 AM -0500",
+      "length": 9600
+    },
+    {
+      "streamer": "Rosuav",
+      "startTime": "Fri, Dec 20, 2019 4:00 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 6:20 AM -0500",
+      "length": 8401
+    },
+    {
+      "streamer": "Rosuav",
+      "startTime": "Sun, Dec 22, 2019 6:00 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 7:55 PM -0500",
+      "length": 6900
+    }
+  ],
+  "fiercekittenz": [
+    {
+      "streamer": "fiercekittenz",
+      "startTime": "Tue, Dec 17, 2019 7:45 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 11:05 PM -0500",
+      "length": 12049
+    },
+    {
+      "streamer": "fiercekittenz",
+      "startTime": "Sat, Dec 21, 2019 5:00 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 7:50 PM -0500",
+      "length": 10200
+    },
+    {
+      "streamer": "fiercekittenz",
+      "startTime": "Mon, Dec 23, 2019 9:20 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 11:30 PM -0500",
+      "length": 7800
+    }
+  ],
+  "Lannonbr": [
+    {
+      "streamer": "Lannonbr",
+      "startTime": "Wed, Dec 18, 2019 3:50 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:35 PM -0500",
+      "length": 6300
+    },
+    {
+      "streamer": "Lannonbr",
+      "startTime": "Tue, Dec 24, 2019 12:30 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:45 PM -0500",
+      "length": 900
+    }
+  ],
+  "SudoKid": [
+    {
+      "streamer": "SudoKid",
+      "startTime": "Fri, Dec 20, 2019 6:30 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 12:20 AM -0500",
+      "length": 21000
+    },
+    {
+      "streamer": "SudoKid",
+      "startTime": "Sat, Dec 21, 2019 5:00 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 9:40 PM -0500",
+      "length": 16800
+    },
+    {
+      "streamer": "SudoKid",
+      "startTime": "Sun, Dec 22, 2019 4:00 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 6:50 PM -0500",
+      "length": 10200
+    }
+  ],
+  "JitterTed": [
+    {
+      "streamer": "JitterTed",
+      "startTime": "Tue, Dec 17, 2019 3:10 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 5:55 PM -0500",
+      "length": 9900
+    },
+    {
+      "streamer": "JitterTed",
+      "startTime": "Fri, Dec 20, 2019 3:05 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 8:55 PM -0500",
+      "length": 21000
+    }
+  ],
+  "cldubya": [
+    {
+      "streamer": "cldubya",
+      "startTime": "Tue, Dec 17, 2019 12:55 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 2:55 PM -0500",
+      "length": 7200
+    },
+    {
+      "streamer": "cldubya",
+      "startTime": "Wed, Dec 18, 2019 1:00 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 3:05 PM -0500",
+      "length": 7500
+    }
+  ],
+  "DrMikachu": [
+    {
+      "streamer": "DrMikachu",
+      "startTime": "Thu, Dec 19, 2019 9:20 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 12:25 AM -0500",
+      "length": 11100
+    }
+  ],
+  "FullStackLive": [
+    {
+      "streamer": "FullStackLive",
+      "startTime": "Tue, Dec 17, 2019 12:40 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 1:05 PM -0500",
+      "length": 1500
+    },
+    {
+      "streamer": "FullStackLive",
+      "startTime": "Fri, Dec 20, 2019 11:05 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 12:45 PM -0500",
+      "length": 6000
+    }
+  ],
+  "Talk2meGooseman": [
+    {
+      "streamer": "Talk2meGooseman",
+      "startTime": "Wed, Dec 18, 2019 10:05 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 1:35 AM -0500",
+      "length": 12600
+    },
+    {
+      "streamer": "Talk2meGooseman",
+      "startTime": "Sat, Dec 21, 2019 11:50 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 2:10 AM -0500",
+      "length": 8400
+    },
+    {
+      "streamer": "Talk2meGooseman",
+      "startTime": "Sun, Dec 22, 2019 2:00 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 4:15 PM -0500",
+      "length": 8100
+    },
+    {
+      "streamer": "Talk2meGooseman",
+      "startTime": "Mon, Dec 23, 2019 9:30 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:50 AM -0500",
+      "length": 12000
+    }
+  ],
+  "Lana_Lux": [
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Tue, Dec 17, 2019 1:00 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 10:25 PM -0500",
+      "length": 33900
+    },
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Wed, Dec 18, 2019 1:40 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 8:30 PM -0500",
+      "length": 24600
+    },
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Thu, Dec 19, 2019 11:45 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 7:00 PM -0500",
+      "length": 26100
+    },
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Fri, Dec 20, 2019 1:20 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 9:20 PM -0500",
+      "length": 28800
+    },
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Sat, Dec 21, 2019 1:40 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 6:40 PM -0500",
+      "length": 18000
+    },
+    {
+      "streamer": "Lana_Lux",
+      "startTime": "Mon, Dec 23, 2019 12:30 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 5:00 PM -0500",
+      "length": 16201
+    }
+  ],
+  "JamesMontemagno": [
+    {
+      "streamer": "JamesMontemagno",
+      "startTime": "Fri, Dec 20, 2019 5:00 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 8:45 PM -0500",
+      "length": 13500
+    }
+  ],
+  "CodeRushed": [
+    {
+      "streamer": "CodeRushed",
+      "startTime": "Tue, Dec 17, 2019 12:40 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 2:00 PM -0500",
+      "length": 4800
+    },
+    {
+      "streamer": "CodeRushed",
+      "startTime": "Wed, Dec 18, 2019 11:10 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:35 PM -0500",
+      "length": 23100
+    },
+    {
+      "streamer": "CodeRushed",
+      "startTime": "Thu, Dec 19, 2019 11:10 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 2:05 PM -0500",
+      "length": 10500
+    },
+    {
+      "streamer": "CodeRushed",
+      "startTime": "Tue, Dec 24, 2019 12:30 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:45 PM -0500",
+      "length": 918
+    }
+  ],
+  "Clarkio": [
+    {
+      "streamer": "Clarkio",
+      "startTime": "Wed, Dec 18, 2019 11:00 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 2:00 PM -0500",
+      "length": 10800
+    },
+    {
+      "streamer": "Clarkio",
+      "startTime": "Thu, Dec 19, 2019 10:05 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 11:50 AM -0500",
+      "length": 6300
+    },
+    {
+      "streamer": "Clarkio",
+      "startTime": "Fri, Dec 20, 2019 12:30 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 4:45 PM -0500",
+      "length": 15300
+    }
+  ],
+  "Alca": [
+    {
+      "streamer": "Alca",
+      "startTime": "Tue, Dec 17, 2019 11:50 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 4:35 AM -0500",
+      "length": 17100
+    },
+    {
+      "streamer": "Alca",
+      "startTime": "Wed, Dec 18, 2019 11:57 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 6:55 AM -0500",
+      "length": 25102
+    },
+    {
+      "streamer": "Alca",
+      "startTime": "Thu, Dec 19, 2019 11:58 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 5:45 AM -0500",
+      "length": 20857
+    },
+    {
+      "streamer": "Alca",
+      "startTime": "Sat, Dec 21, 2019 12:00 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 3:00 AM -0500",
+      "length": 10800
+    },
+    {
+      "streamer": "Alca",
+      "startTime": "Sun, Dec 22, 2019 12:00 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 5:50 AM -0500",
+      "length": 21000
+    },
+    {
+      "streamer": "Alca",
+      "startTime": "Sun, Dec 22, 2019 11:55 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 4:55 AM -0500",
+      "length": 18000
+    }
+  ],
+  "Instafluff": [
+    {
+      "streamer": "Instafluff",
+      "startTime": "Wed, Dec 18, 2019 11:00 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 3:25 PM -0500",
+      "length": 15900
+    },
+    {
+      "streamer": "Instafluff",
+      "startTime": "Thu, Dec 19, 2019 11:20 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 4:00 PM -0500",
+      "length": 16800
+    },
+    {
+      "streamer": "Instafluff",
+      "startTime": "Fri, Dec 20, 2019 11:18 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 4:10 PM -0500",
+      "length": 17522
+    },
+    {
+      "streamer": "Instafluff",
+      "startTime": "Tue, Dec 24, 2019 11:15 AM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:45 PM -0500",
+      "length": 5400
+    }
+  ],
+  "QualityCoder": [
+    {
+      "streamer": "QualityCoder",
+      "startTime": "Tue, Dec 17, 2019 10:35 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 1:15 AM -0500",
+      "length": 9600
+    },
+    {
+      "streamer": "QualityCoder",
+      "startTime": "Fri, Dec 20, 2019 11:35 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 1:25 AM -0500",
+      "length": 6600
+    }
+  ],
+  "sorskoot": [
+    {
+      "streamer": "sorskoot",
+      "startTime": "Thu, Dec 19, 2019 3:00 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 6:10 PM -0500",
+      "length": 11400
+    },
+    {
+      "streamer": "sorskoot",
+      "startTime": "Mon, Dec 23, 2019 3:05 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 6:10 PM -0500",
+      "length": 11100
+    }
+  ],
+  "BaldBeardedBuilder": [
+    {
+      "streamer": "BaldBeardedBuilder",
+      "startTime": "Tue, Dec 17, 2019 2:00 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 5:45 PM -0500",
+      "length": 13500
+    },
+    {
+      "streamer": "BaldBeardedBuilder",
+      "startTime": "Thu, Dec 19, 2019 2:05 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 5:30 PM -0500",
+      "length": 12300
+    },
+    {
+      "streamer": "BaldBeardedBuilder",
+      "startTime": "Sun, Dec 22, 2019 2:05 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 5:45 PM -0500",
+      "length": 13200
+    }
+  ],
+  "noopkat": [
+    {
+      "streamer": "noopkat",
+      "startTime": "Sun, Dec 22, 2019 11:55 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 2:05 PM -0500",
+      "length": 7800
+    }
+  ],
+  "csharpfritz": [
+    {
+      "streamer": "csharpfritz",
+      "startTime": "Wed, Dec 18, 2019 9:55 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 1:00 PM -0500",
+      "length": 11100
+    },
+    {
+      "streamer": "csharpfritz",
+      "startTime": "Thu, Dec 19, 2019 10:05 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 1:20 PM -0500",
+      "length": 11700
+    },
+    {
+      "streamer": "csharpfritz",
+      "startTime": "Sun, Dec 22, 2019 10:05 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 1:35 PM -0500",
+      "length": 12600
+    }
+  ],
+  "nick_larsen": [
+    {
+      "streamer": "nick_larsen",
+      "startTime": "Wed, Dec 18, 2019 7:50 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 9:55 PM -0500",
+      "length": 7499
+    }
+  ],
+  "TimBeaudet": [
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Tue, Dec 17, 2019 5:55 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 11:25 PM -0500",
+      "length": 19800
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Wed, Dec 18, 2019 6:20 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 9:20 AM -0500",
+      "length": 10799
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Wed, Dec 18, 2019 5:35 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 9:10 PM -0500",
+      "length": 12900
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Thu, Dec 19, 2019 6:20 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 9:30 AM -0500",
+      "length": 11400
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Fri, Dec 20, 2019 6:10 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 9:30 AM -0500",
+      "length": 11999
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Sat, Dec 21, 2019 6:15 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 9:50 AM -0500",
+      "length": 12900
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Sun, Dec 22, 2019 6:20 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 7:10 AM -0500",
+      "length": 3000
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Sun, Dec 22, 2019 1:20 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 10:00 PM -0500",
+      "length": 31200
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Mon, Dec 23, 2019 6:25 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 9:10 AM -0500",
+      "length": 9900
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Mon, Dec 23, 2019 5:35 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 10:25 PM -0500",
+      "length": 17400
+    },
+    {
+      "streamer": "TimBeaudet",
+      "startTime": "Tue, Dec 24, 2019 6:00 AM -0500",
+      "endTime": "Tue, Dec 24, 2019 9:20 AM -0500",
+      "length": 12000
+    }
+  ],
+  "codephobia": [
+    {
+      "streamer": "codephobia",
+      "startTime": "Wed, Dec 18, 2019 12:10 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:35 AM -0500",
+      "length": 19500
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Wed, Dec 18, 2019 11:00 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 5:35 AM -0500",
+      "length": 23700
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Thu, Dec 19, 2019 8:00 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 2:20 AM -0500",
+      "length": 22800
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Sat, Dec 21, 2019 6:45 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 11:35 AM -0500",
+      "length": 17400
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Sun, Dec 22, 2019 12:25 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 6:30 AM -0500",
+      "length": 21900
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Mon, Dec 23, 2019 2:50 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 9:00 AM -0500",
+      "length": 22200
+    },
+    {
+      "streamer": "codephobia",
+      "startTime": "Mon, Dec 23, 2019 11:10 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 9:30 AM -0500",
+      "length": 37200
+    }
+  ],
+  "gep13": [
+    {
+      "streamer": "gep13",
+      "startTime": "Fri, Dec 20, 2019 7:00 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 8:05 AM -0500",
+      "length": 3900
+    }
+  ],
+  "VexFX": [
+    {
+      "streamer": "VexFX",
+      "startTime": "Wed, Dec 18, 2019 9:50 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 4:35 AM -0500",
+      "length": 24300
+    },
+    {
+      "streamer": "VexFX",
+      "startTime": "Fri, Dec 20, 2019 10:05 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 9:35 AM -0500",
+      "length": 41400
+    },
+    {
+      "streamer": "VexFX",
+      "startTime": "Mon, Dec 23, 2019 9:55 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 4:55 AM -0500",
+      "length": 25200
+    }
+  ],
+  "HonestDanGames": [
+    {
+      "streamer": "HonestDanGames",
+      "startTime": "Tue, Dec 17, 2019 2:00 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 5:40 PM -0500",
+      "length": 13200
+    },
+    {
+      "streamer": "HonestDanGames",
+      "startTime": "Sun, Dec 22, 2019 11:05 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 2:15 PM -0500",
+      "length": 11400
+    }
+  ],
+  "LuckyNoS7evin": [
+    {
+      "streamer": "LuckyNoS7evin",
+      "startTime": "Wed, Dec 18, 2019 4:00 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 6:25 PM -0500",
+      "length": 8700
+    },
+    {
+      "streamer": "LuckyNoS7evin",
+      "startTime": "Thu, Dec 19, 2019 4:05 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 7:05 PM -0500",
+      "length": 10800
+    }
+  ],
+  "GarethHubball": [
+    {
+      "streamer": "GarethHubball",
+      "startTime": "Sun, Dec 22, 2019 11:55 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 2:15 PM -0500",
+      "length": 8400
+    }
+  ],
+  "SushiCodes": [
+    {
+      "streamer": "SushiCodes",
+      "startTime": "Mon, Dec 23, 2019 4:45 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 8:25 PM -0500",
+      "length": 13200
+    }
+  ],
+  "markekraus": [
+    {
+      "streamer": "markekraus",
+      "startTime": "Tue, Dec 17, 2019 7:45 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 9:05 PM -0500",
+      "length": 4849
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Wed, Dec 18, 2019 10:22 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 11:30 PM -0500",
+      "length": 4084
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Thu, Dec 19, 2019 9:20 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 11:10 PM -0500",
+      "length": 6600
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Fri, Dec 20, 2019 4:20 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 6:25 PM -0500",
+      "length": 7500
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Fri, Dec 20, 2019 8:35 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 11:10 PM -0500",
+      "length": 9300
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Sat, Dec 21, 2019 9:50 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 11:30 PM -0500",
+      "length": 6000
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Sun, Dec 22, 2019 1:50 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 4:05 AM -0500",
+      "length": 8100
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Sun, Dec 22, 2019 4:55 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 8:05 PM -0500",
+      "length": 11400
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Mon, Dec 23, 2019 12:30 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 2:25 AM -0500",
+      "length": 6900
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Mon, Dec 23, 2019 3:50 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 4:35 AM -0500",
+      "length": 2700
+    },
+    {
+      "streamer": "markekraus",
+      "startTime": "Mon, Dec 23, 2019 6:05 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 8:05 PM -0500",
+      "length": 7200
+    }
+  ],
+  "PixelogicDev": [
+    {
+      "streamer": "PixelogicDev",
+      "startTime": "Wed, Dec 18, 2019 8:15 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:30 AM -0500",
+      "length": 8100
+    },
+    {
+      "streamer": "PixelogicDev",
+      "startTime": "Thu, Dec 19, 2019 8:18 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 10:30 AM -0500",
+      "length": 7945
+    }
+  ],
+  "JoshKupka": [
+    {
+      "streamer": "JoshKupka",
+      "startTime": "Thu, Dec 19, 2019 11:05 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 3:15 AM -0500",
+      "length": 15000
+    },
+    {
+      "streamer": "JoshKupka",
+      "startTime": "Sat, Dec 21, 2019 1:35 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 3:55 AM -0500",
+      "length": 8400
+    },
+    {
+      "streamer": "JoshKupka",
+      "startTime": "Sat, Dec 21, 2019 3:35 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 6:35 PM -0500",
+      "length": 10800
+    },
+    {
+      "streamer": "JoshKupka",
+      "startTime": "Mon, Dec 23, 2019 9:05 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 10:30 AM -0500",
+      "length": 5100
+    },
+    {
+      "streamer": "JoshKupka",
+      "startTime": "Mon, Dec 23, 2019 4:10 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 6:00 PM -0500",
+      "length": 6600
+    }
+  ],
+  "stuyksoft": [
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Tue, Dec 17, 2019 7:45 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 8:40 PM -0500",
+      "length": 3349
+    },
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Wed, Dec 18, 2019 8:35 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:45 AM -0500",
+      "length": 7800
+    },
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Thu, Dec 19, 2019 7:05 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 10:45 AM -0500",
+      "length": 13200
+    },
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Sun, Dec 22, 2019 9:20 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 4:55 PM -0500",
+      "length": 27300
+    },
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Mon, Dec 23, 2019 8:40 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 11:05 AM -0500",
+      "length": 8700
+    },
+    {
+      "streamer": "stuyksoft",
+      "startTime": "Tue, Dec 24, 2019 8:45 AM -0500",
+      "endTime": "Tue, Dec 24, 2019 11:40 AM -0500",
+      "length": 10500
+    }
+  ],
+  "ThePrimeagen": [
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Wed, Dec 18, 2019 2:15 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 6:55 PM -0500",
+      "length": 16800
+    },
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Wed, Dec 18, 2019 10:55 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 11:50 PM -0500",
+      "length": 3300
+    },
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Thu, Dec 19, 2019 12:15 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 4:35 PM -0500",
+      "length": 15600
+    },
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Fri, Dec 20, 2019 1:20 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 5:15 PM -0500",
+      "length": 14144
+    },
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Fri, Dec 20, 2019 10:10 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 1:05 AM -0500",
+      "length": 10500
+    },
+    {
+      "streamer": "ThePrimeagen",
+      "startTime": "Mon, Dec 23, 2019 12:30 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 8:05 PM -0500",
+      "length": 27300
+    }
+  ],
+  "Seekaplayer": [
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Tue, Dec 17, 2019 7:20 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 10:55 PM -0500",
+      "length": 12900
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Wed, Dec 18, 2019 9:40 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:40 PM -0500",
+      "length": 3600
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Thu, Dec 19, 2019 6:28 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 7:20 AM -0500",
+      "length": 3170
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Thu, Dec 19, 2019 7:56 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 10:00 PM -0500",
+      "length": 7449
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Sat, Dec 21, 2019 3:15 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 6:30 AM -0500",
+      "length": 11700
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Sat, Dec 21, 2019 2:00 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 3:35 PM -0500",
+      "length": 5700
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Sat, Dec 21, 2019 10:40 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 12:25 AM -0500",
+      "length": 6300
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Sun, Dec 22, 2019 7:25 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 10:15 PM -0500",
+      "length": 10200
+    },
+    {
+      "streamer": "Seekaplayer",
+      "startTime": "Mon, Dec 23, 2019 8:25 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 10:20 PM -0500",
+      "length": 6900
+    }
+  ],
+  "grahamweldon": [
+    {
+      "streamer": "grahamweldon",
+      "startTime": "Sat, Dec 21, 2019 12:05 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 4:45 AM -0500",
+      "length": 16800
+    },
+    {
+      "streamer": "grahamweldon",
+      "startTime": "Sat, Dec 21, 2019 11:55 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 5:20 AM -0500",
+      "length": 19500
+    }
+  ],
+  "FBoucheros": [
+    {
+      "streamer": "FBoucheros",
+      "startTime": "Wed, Dec 18, 2019 2:55 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:10 PM -0500",
+      "length": 8100
+    },
+    {
+      "streamer": "FBoucheros",
+      "startTime": "Fri, Dec 20, 2019 9:05 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 11:00 AM -0500",
+      "length": 6900
+    }
+  ],
+  "TrezyCodes": [
+    {
+      "streamer": "TrezyCodes",
+      "startTime": "Tue, Dec 17, 2019 9:40 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 1:40 AM -0500",
+      "length": 14400
+    },
+    {
+      "streamer": "TrezyCodes",
+      "startTime": "Mon, Dec 23, 2019 9:35 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 4:30 AM -0500",
+      "length": 24900
+    }
+  ],
+  "FanieReynders": [
+    {
+      "streamer": "FanieReynders",
+      "startTime": "Wed, Dec 18, 2019 2:55 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:25 PM -0500",
+      "length": 9000
+    }
+  ],
+  "jlengstorf": [
+    {
+      "streamer": "jlengstorf",
+      "startTime": "Tue, Dec 17, 2019 1:27 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 3:05 PM -0500",
+      "length": 5885
+    },
+    {
+      "streamer": "jlengstorf",
+      "startTime": "Thu, Dec 19, 2019 12:00 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 12:55 PM -0500",
+      "length": 3299
+    }
+  ],
+  "rhymu8354": [
+    {
+      "streamer": "rhymu8354",
+      "startTime": "Tue, Dec 17, 2019 12:50 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 5:05 PM -0500",
+      "length": 15300
+    },
+    {
+      "streamer": "rhymu8354",
+      "startTime": "Wed, Dec 18, 2019 1:15 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 5:25 PM -0500",
+      "length": 15000
+    },
+    {
+      "streamer": "rhymu8354",
+      "startTime": "Fri, Dec 20, 2019 1:05 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 5:55 PM -0500",
+      "length": 17400
+    },
+    {
+      "streamer": "rhymu8354",
+      "startTime": "Mon, Dec 23, 2019 1:05 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 6:10 PM -0500",
+      "length": 18300
+    }
+  ],
+  "caLLowCreation": [
+    {
+      "streamer": "caLLowCreation",
+      "startTime": "Tue, Dec 17, 2019 5:00 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 3:00 AM -0500",
+      "length": 36000
+    },
+    {
+      "streamer": "caLLowCreation",
+      "startTime": "Wed, Dec 18, 2019 5:05 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 1:20 AM -0500",
+      "length": 29700
+    },
+    {
+      "streamer": "caLLowCreation",
+      "startTime": "Thu, Dec 19, 2019 5:15 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 3:25 AM -0500",
+      "length": 36599
+    },
+    {
+      "streamer": "caLLowCreation",
+      "startTime": "Fri, Dec 20, 2019 5:20 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 4:10 AM -0500",
+      "length": 39000
+    }
+  ],
+  "howtocodewell": [
+    {
+      "streamer": "howtocodewell",
+      "startTime": "Wed, Dec 18, 2019 2:00 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 3:50 AM -0500",
+      "length": 6629
+    },
+    {
+      "streamer": "howtocodewell",
+      "startTime": "Thu, Dec 19, 2019 2:05 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 4:25 AM -0500",
+      "length": 8400
+    },
+    {
+      "streamer": "howtocodewell",
+      "startTime": "Sun, Dec 22, 2019 9:35 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 12:40 PM -0500",
+      "length": 11100
+    }
+  ],
+  "tbdgamer": [
+    {
+      "streamer": "tbdgamer",
+      "startTime": "Tue, Dec 17, 2019 7:45 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 11:30 PM -0500",
+      "length": 13549
+    },
+    {
+      "streamer": "tbdgamer",
+      "startTime": "Fri, Dec 20, 2019 8:40 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 12:05 PM -0500",
+      "length": 12300
+    }
+  ],
+  "zerratar": [
+    {
+      "streamer": "zerratar",
+      "startTime": "Tue, Dec 17, 2019 12:40 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 2:45 PM -0500",
+      "length": 7500
+    },
+    {
+      "streamer": "zerratar",
+      "startTime": "Wed, Dec 18, 2019 1:55 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 6:10 PM -0500",
+      "length": 15300
+    },
+    {
+      "streamer": "zerratar",
+      "startTime": "Sun, Dec 22, 2019 4:25 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 8:45 AM -0500",
+      "length": 15600
+    },
+    {
+      "streamer": "zerratar",
+      "startTime": "Mon, Dec 23, 2019 2:25 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 4:40 PM -0500",
+      "length": 8100
+    }
+  ],
+  "Zorchenhimer": [
+    {
+      "streamer": "Zorchenhimer",
+      "startTime": "Sun, Dec 22, 2019 1:05 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 6:05 PM -0500",
+      "length": 18000
+    }
+  ],
+  "Fr33maan": [
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Wed, Dec 18, 2019 3:55 AM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:35 AM -0500",
+      "length": 24000
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Wed, Dec 18, 2019 9:05 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:00 PM -0500",
+      "length": 3300
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Thu, Dec 19, 2019 5:15 AM -0500",
+      "endTime": "Thu, Dec 19, 2019 10:25 AM -0500",
+      "length": 18600
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Fri, Dec 20, 2019 4:45 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 10:30 AM -0500",
+      "length": 20700
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Fri, Dec 20, 2019 10:20 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 12:30 AM -0500",
+      "length": 7800
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Sat, Dec 21, 2019 4:05 AM -0500",
+      "endTime": "Sat, Dec 21, 2019 7:05 AM -0500",
+      "length": 10800
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Sun, Dec 22, 2019 9:30 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 1:50 PM -0500",
+      "length": 15600
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Mon, Dec 23, 2019 2:20 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 1:25 PM -0500",
+      "length": 39900
+    },
+    {
+      "streamer": "Fr33maan",
+      "startTime": "Tue, Dec 24, 2019 2:00 AM -0500",
+      "endTime": "Tue, Dec 24, 2019 3:40 AM -0500",
+      "length": 6000
+    }
+  ],
+  "MaryJoStaebler": [
+    {
+      "streamer": "MaryJoStaebler",
+      "startTime": "Tue, Dec 17, 2019 1:20 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 4:50 PM -0500",
+      "length": 12600
+    }
+  ],
+  "JesseSkinner": [
+    {
+      "streamer": "JesseSkinner",
+      "startTime": "Wed, Dec 18, 2019 1:00 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 2:05 PM -0500",
+      "length": 3900
+    }
+  ],
+  "LatteAndMia": [
+    {
+      "streamer": "LatteAndMia",
+      "startTime": "Thu, Dec 19, 2019 7:55 PM -0500",
+      "endTime": "Thu, Dec 19, 2019 8:20 PM -0500",
+      "length": 1500
+    }
+  ],
+  "mbcrump": [
+    {
+      "streamer": "mbcrump",
+      "startTime": "Fri, Dec 20, 2019 7:10 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 8:30 PM -0500",
+      "length": 4800
+    }
+  ],
+  "theMessyCoder": [
+    {
+      "streamer": "theMessyCoder",
+      "startTime": "Fri, Dec 20, 2019 4:35 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 7:35 PM -0500",
+      "length": 10800
+    },
+    {
+      "streamer": "theMessyCoder",
+      "startTime": "Sat, Dec 21, 2019 5:05 PM -0500",
+      "endTime": "Sat, Dec 21, 2019 7:05 PM -0500",
+      "length": 7200
+    }
+  ],
+  "Linuxgurugamer": [
+    {
+      "streamer": "Linuxgurugamer",
+      "startTime": "Sun, Dec 22, 2019 6:20 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 11:55 PM -0500",
+      "length": 20100
+    }
+  ],
+  "TutorExilius": [
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Tue, Dec 17, 2019 1:55 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 9:55 PM -0500",
+      "length": 28800
+    },
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Fri, Dec 20, 2019 4:50 AM -0500",
+      "endTime": "Fri, Dec 20, 2019 7:00 AM -0500",
+      "length": 7800
+    },
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Sun, Dec 22, 2019 12:00 PM -0500",
+      "endTime": "Sun, Dec 22, 2019 8:45 PM -0500",
+      "length": 31500
+    },
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Mon, Dec 23, 2019 6:00 AM -0500",
+      "endTime": "Mon, Dec 23, 2019 12:10 PM -0500",
+      "length": 22200
+    },
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Mon, Dec 23, 2019 1:30 PM -0500",
+      "endTime": "Mon, Dec 23, 2019 5:30 PM -0500",
+      "length": 14400
+    },
+    {
+      "streamer": "TutorExilius",
+      "startTime": "Tue, Dec 24, 2019 7:00 AM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:45 PM -0500",
+      "length": 20700
+    }
+  ],
+  "ChaelCodes": [
+    {
+      "streamer": "ChaelCodes",
+      "startTime": "Wed, Dec 18, 2019 7:00 PM -0500",
+      "endTime": "Wed, Dec 18, 2019 10:20 PM -0500",
+      "length": 11999
+    },
+    {
+      "streamer": "ChaelCodes",
+      "startTime": "Sun, Dec 22, 2019 9:05 AM -0500",
+      "endTime": "Sun, Dec 22, 2019 5:25 PM -0500",
+      "length": 30000
+    }
+  ],
+  "MrDemonWolf": [
+    {
+      "streamer": "MrDemonWolf",
+      "startTime": "Tue, Dec 17, 2019 12:40 PM -0500",
+      "endTime": "Tue, Dec 17, 2019 5:35 PM -0500",
+      "length": 17700
+    },
+    {
+      "streamer": "MrDemonWolf",
+      "startTime": "Fri, Dec 20, 2019 2:50 PM -0500",
+      "endTime": "Fri, Dec 20, 2019 5:40 PM -0500",
+      "length": 10200
+    },
+    {
+      "streamer": "MrDemonWolf",
+      "startTime": "Mon, Dec 23, 2019 10:40 PM -0500",
+      "endTime": "Tue, Dec 24, 2019 12:35 AM -0500",
+      "length": 6900
+    }
+  ]
+}
