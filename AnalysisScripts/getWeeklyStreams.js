@@ -66,7 +66,6 @@ async function run() {
   }
 
   console.log(JSON.stringify(allStreams))
-  console.log(`Total time: ${totalTime}`)
 }
 
 run()
