@@ -1,9 +1,12 @@
-const data = require("./Dec4Data.json")
+const data = require(process.argv[2])
+
 const {
   parse,
   startOfWeek,
   differenceInSeconds,
   addHours,
+  addWeeks,
+  subMinutes,
   startOfHour,
   getUnixTime,
   getHours,
@@ -24,31 +27,21 @@ for (let i = 0; i < 7; i++) {
   timeGrid[i] = timeGrid[i].fill(0, 0, 24)
 }
 
+// Ex: Tue, Dec 24, 2019 12:00 PM -0500
 let timeFmt = "EEE, LLL d, yyyy h:mm bbb xx"
 
-// Start, Dec 8
-let currTimePointer = parse(
-  "Sun, Dec 8, 2019 12:00 AM -0500",
-  timeFmt,
-  new Date()
-)
-currTimePointer = startOfWeek(currTimePointer)
+// Start the current time at the start of the week
+let currTimePointer = startOfWeek(new Date())
 
-// End, end of the week
-let endOfHeatmap = parse(
-  "Sat, Dec 14, 2019 11:00 PM -0500",
-  timeFmt,
-  new Date()
-)
+let endOfWeek = subMinutes(startOfWeek(addWeeks(new Date(), 1)), 5)
 
-while (differenceInSeconds(endOfHeatmap, currTimePointer) > 0) {
+while (differenceInSeconds(endOfWeek, currTimePointer) > 0) {
   const currUnix = getUnixTime(currTimePointer)
   const currHour = getHours(currTimePointer)
   const currDay = getDay(currTimePointer)
 
   const streamsInHour = streams.filter(stream => {
     const start = parse(stream.startTime, timeFmt, new Date())
-
     const end = parse(stream.endTime, timeFmt, new Date())
 
     const endBarrier = isEqual(startOfHour(end), end)
