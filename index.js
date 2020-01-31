@@ -45,10 +45,16 @@ exports.handler = async function() {
         })
         data = await resp.json()
 
-        let liveEntries = data.data.map(user => ({
-          user: user.user_name,
-          game_id: user.game_id,
-        }))
+        let liveEntries = data.data.map(user => {
+          let { user_name: user, game_id } = user
+          if (game_id === "") {
+            game_id = "0"
+          }
+          return {
+            user,
+            game_id,
+          }
+        })
 
         onlineUsersEntries.push(...liveEntries)
       }
