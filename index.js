@@ -46,12 +46,12 @@ exports.handler = async function() {
         data = await resp.json()
 
         let liveEntries = data.data.map(user => {
-          let { user_name: user, game_id } = user
+          let { user_name, game_id } = user
           if (game_id === "") {
             game_id = "0"
           }
           return {
-            user,
+            user: user_name,
             game_id,
           }
         })
