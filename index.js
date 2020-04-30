@@ -8,16 +8,15 @@ const ddb = new AWS.DynamoDB({ apiVersion: "2012-08-10" })
 require("dotenv").config()
 
 const twitchClientID = process.env.CLIENT_ID
+const twitchClientSecret = process.env.CLIENT_SECRET
 const team = process.env.TEAM_NAME
 
-exports.handler = async function() {
+exports.handler = async function () {
   return new Promise(async (resolve, reject) => {
     let rootResolve = resolve
     let rootReject = reject
 
-    const timestamp = moment()
-      .unix()
-      .toString()
+    const timestamp = moment().unix().toString()
 
     try {
       let teamURL = `https://api.twitch.tv/kraken/teams/${team}`
@@ -25,12 +24,13 @@ exports.handler = async function() {
         headers: {
           Accept: "application/vnd.twitchtv.v5+json",
           "Client-ID": twitchClientID,
+          Authorization: `OAuth ${twitchClientSecret}`,
         },
       })
       let data = await resp.json()
       let members = data.users
 
-      let uids = members.map(member => member._id)
+      let uids = members.map((member) => member._id)
 
       let onlineUsersEntries = []
 
@@ -41,11 +41,12 @@ exports.handler = async function() {
         resp = await fetch(activeStreamsURL, {
           headers: {
             "Client-ID": twitchClientID,
+            Authorization: `Bearer ${twitchClientSecret}`,
           },
         })
         data = await resp.json()
 
-        let liveEntries = data.data.map(user => {
+        let liveEntries = data.data.map((user) => {
           let { user_name, game_id } = user
           if (game_id === "") {
             game_id = "0"
@@ -68,7 +69,7 @@ exports.handler = async function() {
 
       const params = {
         RequestItems: {
-          LiveCodersStreamPoints: onlineUsersEntries.map(user => ({
+          LiveCodersStreamPoints: onlineUsersEntries.map((user) => ({
             PutRequest: {
               Item: {
                 username: { S: user.user },
