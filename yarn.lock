@@ -2,6 +2,14 @@
 # yarn lockfile v1
 
 
+"@jlengstorf/get-twitch-oauth@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@jlengstorf/get-twitch-oauth/-/get-twitch-oauth-1.0.0.tgz#71266b49a23003bc78e08e8e398f4695e9395577"
+  integrity sha512-6hcZZQZBjuB4bvWoITYCPZ9mbRMkqxFnycyMRAshMkqs1qia8vMzGnEtL4c7VNWCnwQR3KQTO1kFHkYsuB6WHw==
+  dependencies:
+    dotenv "^8.2.0"
+    node-fetch "^2.6.0"
+
 aws-sdk@^2.573.0:
   version "2.573.0"
   resolved "https://registry.yarnpkg.com/aws-sdk/-/aws-sdk-2.573.0.tgz#e4d35b6ac7e039eda2b1a365574380521b87e065"

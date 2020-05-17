@@ -11,7 +11,14 @@ const twitchClientID = process.env.CLIENT_ID
 const twitchClientSecret = process.env.CLIENT_SECRET
 const team = process.env.TEAM_NAME
 
+const { getTwitchAccessToken } = require("@jlengstorf/get-twitch-oauth")
+
 exports.handler = async function () {
+  const { access_token } = await getTwitchAccessToken({
+    client_id: twitchClientID,
+    client_secret: twitchClientSecret,
+  })
+
   return new Promise(async (resolve, reject) => {
     let rootResolve = resolve
     let rootReject = reject
@@ -24,7 +31,7 @@ exports.handler = async function () {
         headers: {
           Accept: "application/vnd.twitchtv.v5+json",
           "Client-ID": twitchClientID,
-          Authorization: `OAuth ${twitchClientSecret}`,
+          Authorization: `OAuth ${access_token}`,
         },
       })
       let data = await resp.json()
@@ -41,7 +48,7 @@ exports.handler = async function () {
         resp = await fetch(activeStreamsURL, {
           headers: {
             "Client-ID": twitchClientID,
-            Authorization: `Bearer ${twitchClientSecret}`,
+            Authorization: `Bearer ${access_token}`,
           },
         })
         data = await resp.json()
